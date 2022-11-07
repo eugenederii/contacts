@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <title>homework_16</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <a href="" class="header__logo">
+                <img src="img/logo.svg" alt="Logo">
+            </a>
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="" class="menu__link">About Us</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Courses</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Events</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">Blog</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link menu__link-orange">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__action action-header">
+                <a href="" class="action-header__button button"><span>Get consultation</span></a>
+                <a href="" class="action-header__auth"><span>Log in / Register</span></a>
+            </div>
+        </div>
+    </header>
+    <main class="page">
+        <div class="page__container">
+            <div class="page__img">
+                <img src="img/illustration.svg" alt="">
+            </div>
+            <div class="registr">
+                <h2 class="registr__title">Any questions?</h2>
+                <h2 class="registr__subtitle">Drop us a line</h2>
+                <form class="form" action="#" method="post" enctype="multipart/form-data">
+                    <div class="form__contacts">
+                        <div class="form__box">
+                            <label class="form__label" for="name-01">First Name*</label>
+                            <input required class="form__input" placeholder="Your first name" name="name" id="name-01"
+                                type="text" />
+                        </div>
+                        <div class="form__box">
+                            <label class="form__label" for="name-02">Last Name*</label>
+                            <input required class="form__input" placeholder="Your last name" name="name" id="name-02"
+                                type="text" />
+                        </div>
+                        <div class="form__box">
+                            <label class="form__label" for="email">Email*</label>
+                            <input required class="form__input" placeholder="Your working email" name="email" id="email"
+                                type="email" />
+                        </div>
+                        <div class="form__box">
+                            <label class="form__label" for="phone">Phone</label>
+                            <input class="form__input" placeholder="Your phone number" name="phone" id="phone"
+                                type="tel" />
+                        </div>
+                        <div class="form__box">
+                            <label class="form__label" for="textarea">Message*</label>
+                            <textarea required class="form__input form__texterea" placeholder="Your message"
+                                name="textarea" id="textarea"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form__footer">
+                        <div class="checkbox">
+                            <input required id="checkbox" autocomplete="off" type="checkbox" value="yes" name="checkbox"
+                                class="checkbox__input" />
+                            <label for="checkbox" class="checkbox__label"><span class="checkbox__text">I agree to
+                                    receive communications from Createx Online School</span></label>
+                        </div>
+                        <button type="submit" class="button__message">Send message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer"></footer>
+
+
+</body>
+
+</html>
